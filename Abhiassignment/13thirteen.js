@@ -4,12 +4,12 @@
 
 
   if(age>65 || gender=="F"){
-    console.log("Wrong Category")
+    document.write("Wrong Category")
   }
   else if(age<=65 || gender=="M"){
 
 if(TI<=160000){
-    console.log("TI Not Aplicable")
+    document.write("TI Not Aplicable")
 }
 else if(TI>160000 && TI<=500000){
     tax=((TI-160000)*10/100)
